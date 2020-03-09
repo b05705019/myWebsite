@@ -1,0 +1,53 @@
+.intro-bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-container {
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro-title {
+    font-size: 40px;
+    font-family: 'Arapey', serif;
+}
+.intro-body {
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: violet; */
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.intro-name {
+    font-size: 25px;
+}
+.intro-picture {
+    display: inline-block;
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.intro-picture img{
+    width: 100%;
+    /* margin-left:-50%; */
+}
+/* .intro-picture>img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+} */
