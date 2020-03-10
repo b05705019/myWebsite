@@ -1,0 +1,65 @@
+.skill-bg {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Arapey', serif;
+    color: rgb(55, 55, 55);
+    height: 25%;
+}
+.skill-subtitle {
+    font-size: 18px;
+    margin-top: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.skill-body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: tomato; */
+    height: 45%;
+}
+.web-lang-body {
+    font-weight: 400;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.web-lang-element {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 5px;
+}
+.web-lang-container {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+@media screen and (max-width: 768px) {
+    .web-lang-container {
+        width: 85%;
+    }
+    .skill-body {
+        justify-content: flex-start;
+    }
+}

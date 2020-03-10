@@ -1,0 +1,106 @@
+.contact-bg {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Arapey', serif;
+    color: rgb(55, 55, 55);
+    height: 25%;
+}
+.contact-subtitle {
+    font-size: 18px;
+    margin-top: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact-body {
+    width: 100vw;
+    height: 75%;
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+}
+.contact-pic-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.contact-picture {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.contact-picture img{
+    width: 100%;
+}
+.contact-name {
+    font-size: 22px;
+}
+.contact-link {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-link img {
+    width: 30px;
+}
+.contact-copyright {
+    font-family: 'Arapey', serif;
+}
+@media screen and (max-width: 768px) {
+    .contact-subtitle {
+        font-size: 16px;
+    }
+    .contact-pic-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 70%;
+    }
+    .contact-picture {
+        width: 150px;
+        height: 150px;
+    }
+    .contact-link {
+        width: 230px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .contact-subtitle {
+        font-size: 13px;
+    }
+    .contact-picture {
+        width: 130px;
+        height: 130px;
+    }
+    .contact-name {
+        font-size: 20px;
+    }
+}

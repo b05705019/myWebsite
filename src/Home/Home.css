@@ -94,3 +94,29 @@
     border-radius: 3px;
     cursor: pointer;
 }
+@media screen and (max-width: 568px) {
+    .home-profile-container {
+        height: 55%;
+    }
+    .home-rightup {
+        width: 30px;
+        height: 30px;
+    }
+    .home-rightup>img {
+        width: 15px;
+        height: 15px;
+        margin: 7.5px;
+    }
+    .home-rightdown>img {
+        width: 20px;
+    }
+    .home-rightdown {
+        width: 30px;
+        height: 30px;
+    }
+    .home-rightdown:hover {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
