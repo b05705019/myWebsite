@@ -1,12 +1,12 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './Home.css';
 import arrowDown from '../assets/arrow_down.svg';
-import menu from '../assets/menu.svg';
 
 class Home extends React.Component {
     render() {
         return (
-            <div className="home-bg">
+            <div id="Home" className="home-bg">
                 <div className="home-container">
                     <div className="home-left">
                         <div className="home-profile-container">
@@ -16,8 +16,10 @@ class Home extends React.Component {
                         <div className="home-intro"> This is a personal website for showing my life and interests in the past, now, and future. </div>
                     </div>
                     <div className="home-right">
-                        <div className="home-rightup"><img src={menu} /></div>
-                        <div className="home-rightdown"><img src={arrowDown} /></div>
+                        {/* <div className="home-rightup"><img src={menu} /></div> */}
+                        <div className="home-rightdown">
+                            <AnchorLink href="#Introduction"><img src={arrowDown} /></AnchorLink>
+                        </div>
                     </div>
                 </div>
             </div>

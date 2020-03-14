@@ -10,7 +10,7 @@ import LinkedinLogo from '../assets/linkedin.png';
 class Contact extends React.Component {
     render() {
         return (
-            <div className="contact-bg">
+            <div id="Contact" className="contact-bg">
                 {/* <div className="contact-container"> */}
                     <div className="contact-title">
                         <div> Contact </div>

@@ -4,7 +4,7 @@ import './Skill.css';
 class Skill extends React.Component {
     render() {
         return (
-            <div className="skill-bg">
+            <div id="Skills" className="skill-bg">
                 <div className="skill-title">
                     <div> Skills </div>
                     <div className="skill-subtitle"> Programming skills. </div>

@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* background-color: thistle; */
 }
 .project-title {
     display: flex;
@@ -28,7 +27,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: tomato; */
     margin-bottom: 60px;
 }
 .project-body>div>img {
@@ -76,4 +74,14 @@
     transition-duration: 1s;
     transition-timing-function: ease-out;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .project-title {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .project-img {
+        width: 70%;
+    }
 }

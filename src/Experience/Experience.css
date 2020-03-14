@@ -111,3 +111,48 @@
     background-color: #E5D67B;
     box-shadow: 2px 2px 15px grey;
 }
+
+@media screen and (max-width: 768px) {
+    .exp-title {
+        height: 12%;
+        justify-content: flex-end;
+    }
+    .exp-body {
+        width: 80%;
+        font-size: 12px;
+    }
+    .exp-study {
+        width: 100%;
+    }
+    .exp-projects {
+        width: 100%;
+        font-size: smaller;
+        overflow: scroll;
+        margin: 15px 0;
+    }
+    .exp-project {
+        padding: 30px 15px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .exp-body {
+        width: 80%;
+        font-size: 12px;
+    }
+    .exp-study {
+        width: 100%;
+    } 
+    .exp-degree {
+        width: 16%;
+    }
+    .exp-projects {
+        width: 100%;
+        font-size: smaller;
+        overflow: scroll;
+        margin: 15px 0;
+    }
+    .exp-project {
+        padding: 30px 15px;
+    }
+}

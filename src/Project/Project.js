@@ -9,7 +9,7 @@ import music from '../assets/music_chat.png';
 class Project extends React.Component {
     render() {
         return (
-            <div className="project-bg">
+            <div id="Projects" className="project-bg">
                 <div className="project-title">
                     <div> Projects </div>
                     <div className="project-subtitle"> Projects of web designing. </div>

@@ -4,14 +4,14 @@ import './Experience.css';
 class Experience extends React.Component {
     render() {
         return (
-           	<div className="exp-bg">
+           	<div id="Experience" className="exp-bg">
                	<div className="exp-title">
 					Experience
 				</div>
                	<div className="exp-body">
 					<div className="exp-study">
 						<div className="exp-degree exp-master">Master of Information Management</div>
-						<div className="exp-degree">Bachelor of Information Management</div>
+						<div className="exp-degree exp-bachelor">Bachelor of Information Management</div>
 						<div className="exp-degree">Stella Matutina Girls’ High School</div>
 					</div>
 					<div className="exp-projects">

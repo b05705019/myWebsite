@@ -5,7 +5,7 @@ import profilePic from '../assets/profile.png';
 class Introduction extends React.Component {
     render() {
         return (
-            <div className="intro-bg">
+            <div id="Introduction" className="intro-bg">
                 <div className="intro-title"> Introduction </div>
                 <div className="intro-body-container">
                     <div className="intro-space"></div>
