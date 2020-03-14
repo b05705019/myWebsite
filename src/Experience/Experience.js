@@ -75,7 +75,7 @@ class Experience extends React.Component {
 				<div id="exp-project-card" className={this.state.cardClass}>
 					<div className="exp-card">
 						<div className="exp-card-body">
-							<div className="exp-title">{this.state.cardTitle}</div>
+							<div className="exp-card-title">{this.state.cardTitle}</div>
 							<div>{this.state.cardContent}</div>
 						</div>
 						<div className="exp-card-close" onClick={this.openProject}><img src={close}/></div>
