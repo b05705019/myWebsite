@@ -17,7 +17,7 @@ class App extends React.Component {
     this.state = {
       isOpen: false,
       state: menu,
-      navClass: 'app-navigator app-nav-hidden hide'
+      navClass: 'app-navigator app-nav-hide hide'
     };
   }
   openNav = () => {
@@ -25,11 +25,11 @@ class App extends React.Component {
       this.setState({
         isOpen: false,
         state: menu,
-        navClass: 'app-navigator app-nav-hidden'
+        navClass: 'app-navigator app-nav-hide'
       })
       setTimeout(()=>{
         this.setState({
-          navClass: 'app-navigator app-nav-hidden hide'
+          navClass: 'app-navigator app-nav-hide hide'
         })
       }, 400)
     }

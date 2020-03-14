@@ -41,8 +41,9 @@
   text-decoration: none;
   color: rgb(55, 55, 55);
 }
-.app-nav-hidden {
-  transition: linear 0.3s;
+.app-nav-hide {
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
   opacity: 0;
 }
 .app-nav-show {
