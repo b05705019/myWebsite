@@ -17,30 +17,30 @@ class Project extends React.Component {
                 <div className="project-body">
                     <div className="project-img">
                         <div className="project-img-cover"> DeFaker </div>
-                        <img src={news} />
+                        <img src={news} alt="Defaker" />
                     </div>
 
                     <div className="project-img">
                         <div className="project-img-cover"> Annotation Tool </div>
-                        <img src={annotation} />
+                        <img src={annotation} alt="Annotation tool" />
                         
                     </div>
 
                     <div className="project-img">
                         <div className="project-img-cover"> Quote Cookie </div>
-                        <img src={quote} />
+                        <img src={quote} alt="Quote Cookie" />
                         
                     </div>
                     
                     <div className="project-img">
                         <div className="project-img-cover"> Harbour Scheduling </div>
-                        <img src={harbor} />
+                        <img src={harbor} alt="Harbour Scheduling" />
                         
                     </div>
 
                     <div className="project-img">
                         <div className="project-img-cover"> Line Music Game </div>
-                        <img className="project-app" src={music} />
+                        <img className="project-app" src={music} alt="Line Music Game" />
                     </div>
                 </div>
             </div>

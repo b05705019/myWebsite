@@ -18,7 +18,7 @@ class Home extends React.Component {
                     <div className="home-right">
                         {/* <div className="home-rightup"><img src={menu} /></div> */}
                         <div className="home-rightdown">
-                            <AnchorLink href="#Introduction"><img src={arrowDown} /></AnchorLink>
+                            <AnchorLink href="#Introduction"><img src={arrowDown} alt="" /></AnchorLink>
                         </div>
                     </div>
                 </div>

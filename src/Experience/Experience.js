@@ -28,7 +28,7 @@ class Experience extends React.Component {
 		}
 		else {
 			const title = event.currentTarget.textContent;
-			const content = myExp.filter(item => item.title == title)[0].content;
+			const content = myExp.filter(item => item.title === title)[0].content;
 			this.setState({
 				isOpen: true,
 				cardClass: 'exp-card-container',
@@ -78,7 +78,7 @@ class Experience extends React.Component {
 							<div className="exp-card-title">{this.state.cardTitle}</div>
 							<div>{this.state.cardContent}</div>
 						</div>
-						<div className="exp-card-close" onClick={this.openProject}><img src={close}/></div>
+						<div className="exp-card-close" onClick={this.openProject}><img src={close} alt="Close" /></div>
 					</div>
 				</div>
            	</div>

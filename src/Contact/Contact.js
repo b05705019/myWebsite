@@ -21,15 +21,15 @@ class Contact extends React.Component {
                     <div className="contact-body">
                         <div className="contact-profile">
                             <div className="contact-pic-container">
-                                <div className="contact-picture"><img src={contactPic} /></div>
+                                <div className="contact-picture"><img src={contactPic} alt="Shih Yun" /></div>
                                 <div className="contact-name"> Shih Yun Chen </div>
                             </div>
                             <div className="contact-link">
-                                <a href="https://www.facebook.com/cinnacinnachen"><img src={FacebookLogo} /></a>
-                                <a href="https://www.instagram.com/shih.yun.chen"><img src={InstagramLogo} /></a>
-                                <a href="https://github.com/b05705019"><img src={GithubLogo} /></a>
-                                <a href="https://line.me/ti/p/pRVUS6MJs_"><img src={LineLogo} /></a>
-                                <a href="https://linkedin.com/in/shih-yun-carolyn-chen-8a376915b"><img src={LinkedinLogo} /></a>    
+                                <a href="https://www.facebook.com/cinnacinnachen"><img src={FacebookLogo} alt="FB" /></a>
+                                <a href="https://www.instagram.com/shih.yun.chen"><img src={InstagramLogo} alt="IG" /></a>
+                                <a href="https://github.com/b05705019"><img src={GithubLogo} alt="Github" /></a>
+                                <a href="https://line.me/ti/p/pRVUS6MJs_"><img src={LineLogo} alt="Line" /></a>
+                                <a href="https://linkedin.com/in/shih-yun-carolyn-chen-8a376915b"><img src={LinkedinLogo} alt="Linkedin" /></a>    
                             </div>
                         </div>
                         

@@ -10,7 +10,7 @@ class Introduction extends React.Component {
                 <div className="intro-body-container">
                     <div className="intro-space"></div>
                     <div className="intro-body">
-                        <div className="intro-picture"><img src={profilePic} /></div>
+                        <div className="intro-picture"><img src={profilePic} alt="Shih Yun" /></div>
                         <div className="intro-name">Shih Yun Chen <br/> (Carolyn)</div>
                         <div className="intro-content">
                             I’m a software developer now, 

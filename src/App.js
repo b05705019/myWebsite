@@ -56,7 +56,7 @@ class App extends React.Component {
         <Project />
         <Contact />
 
-        <div className="app-menu" onClick={this.openNav} ><img src={this.state.state} /></div>
+        <div className="app-menu" onClick={this.openNav} ><img src={this.state.state} alt="Menu" /></div>
         <div className={this.state.navClass}>
           <div className="app-nav"><AnchorLink href='#Home' onClick={this.openNav} className="anchorlink"> Home </AnchorLink></div>
           <div className="app-nav"><AnchorLink href='#Introduction' onClick={this.openNav} className="anchorlink"> Introduction </AnchorLink></div>

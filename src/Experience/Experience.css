@@ -26,7 +26,7 @@
     align-items: center;
     width: 70%;
     height: 85%;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 .exp-study {
     width: 80%;
@@ -36,11 +36,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 .exp-degree {
     width: 25%;
-    height: 40%;
+    height: 35%;
     padding: 50px 20px;
     background-color: #A1B872;
     display: flex;
@@ -51,7 +51,7 @@
 }
 .exp-degree:hover {
     width: 25%;
-    height: 40%;
+    height: 35%;
     padding: 50px 20px;
     background-color: #A1B872;
     display: flex;
