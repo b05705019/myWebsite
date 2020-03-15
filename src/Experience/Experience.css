@@ -77,6 +77,9 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.exp-projects::-webkit-scrollbar {
+    display: none;
+  }
 .exp-project {
     width: 22%;
     height: 60px;
@@ -90,7 +93,11 @@
     margin: 1% 0;
     cursor: pointer;
     overflow: scroll;
+    -ms-overflow-style: none;
 }
+.exp-project::-webkit-scrollbar {
+    display: none;
+  }
 .exp-project:hover {
     width: 22%;
     height: 60px;
